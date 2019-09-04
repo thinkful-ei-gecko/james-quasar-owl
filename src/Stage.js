@@ -1,5 +1,6 @@
 import React from 'react';
 import store from './store';
+import './Stage.css';
 
 export default function Stage(props) {
   const peopleOnStage = store.participants.filter(person => {
@@ -7,18 +8,16 @@ export default function Stage(props) {
   })
   return (
     <section className="on-stage">
-      <header>
-        {/* remove after styles appropriately show separate from List */}
-        <h1>The Stage</h1>
-      </header>
+      <div className="stage">
       {
         peopleOnStage.map( person => (
-          <ul key={person.id}>
+          <ul key={person.id} className="stage-person">
             <li>{person.name}</li>
-            <li><img src={person.avatar} alt={person.name + ' avatar'}/></li>
+            <li className="stage-person__avatar"><img src={person.avatar} alt={person.name + ' avatar'}/></li>
           </ul>
         ))
       }
+      </div>
     </section>
   );
 }

@@ -1,0 +1,8 @@
+.App {
+  display: flex;
+  border: 5px solid green;
+}
+
+ul {
+  list-style: none;
+}

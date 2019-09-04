@@ -2,10 +2,11 @@ import React from 'react';
 import store from './store';
 import List from './List';
 import Chat from './Chat';
+import './Sidebar.css';
 
 export default function Sidebar(){
   return(
-    <section>
+    <section className="sidebar-section">
       <header>
         <h1>Sidebar</h1>
       </header>

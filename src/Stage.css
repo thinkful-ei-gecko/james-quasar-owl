@@ -1,0 +1,33 @@
+.on-stage {
+  border: 3px solid red;
+  flex: 5 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.stage-person {
+border: 2px solid black;
+flex: 1 1 auto;
+color: white;
+background-color: #353535;
+}
+
+.stage-person__avatar {
+  border: 2px solid blue;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #060606;
+
+}
+
+
+.stage {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  
+}
