@@ -1,14 +1,12 @@
 import React from 'react';
-import List from './List.js';
 import Stage from './Stage';
-import Chat from './Chat';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
     <main className='App'>
-      <List />
+      <Sidebar />
       <Stage />
-      <Chat />
     </main>
   );
 }
