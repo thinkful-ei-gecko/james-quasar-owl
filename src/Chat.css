@@ -1,0 +1,39 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.chat-feed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-feed > li {
+  display: flex;
+  line-height: 2em;
+  color: grey;
+}
+
+p {
+  padding: 2px;
+}
+
+input {
+  width: 92%;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.chat-avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+.chat-name {
+  font-weight: bolder;
+  margin-right: 4px;
+}

@@ -7,10 +7,7 @@ import './Sidebar.css';
 export default function Sidebar(){
   return(
     <section className="sidebar-section">
-      <header>
-        <h1>Sidebar</h1>
-      </header>
-      <ul>
+      <ul className='sidebar-menu'>
        <li> <a href='replace with function to show chat'>Chat</a></li> 
        <li> <a href='replace with function to show chat'>Participants</a></li> 
        <li>gear</li>

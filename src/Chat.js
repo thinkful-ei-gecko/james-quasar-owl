@@ -1,5 +1,6 @@
 import React from 'react';
 import store from './store.js';
+import './Chat.css';
 
 export default function Chat(props) {
 
@@ -55,21 +56,26 @@ export default function Chat(props) {
   const createMessage = function(event) {
     return (
       <li key={event.timestamp}>
-        <img src={getParticipantAvatar(event)} alt={getParticipantName(event) + ' avatar'} />
-        <p><span className="chat-name">{getParticipantName(event)}</span> {toDate(event.time)}</p>
-        <p>{event.message}</p>
+        <img className='chat-avatar' src={getParticipantAvatar(event)} alt={getParticipantName(event) + ' avatar'} />
+        <div>
+          <p><span className="chat-name">{getParticipantName(event)}</span> {toDate(event.time)}</p>
+          <p>{event.message}</p>
+        </div>
       </li>
     );
   };
 
   return (
-    <ul>
-    {
-      store.chatEvents.map(event => (
-          event.type === 'message' ? createMessage(event) : createEvent(event)
-      ))
-    }
-    </ul>
+    <section className='chat-container'>
+      <ul className='chat-feed'>
+      {
+        store.chatEvents.map(event => (
+            event.type === 'message' ? createMessage(event) : createEvent(event)
+        ))
+      }
+      </ul>
+      <input type='text' placeholder='Chat'/>
+    </section>
 
   );
 }
