@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat tests render same UI 1`] = `
+<ul>
+  <li>
+    <img
+      alt="Axe Kubicka avatar"
+      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+    />
+    <p>
+      <span
+        className="chat-name"
+      >
+        Axe Kubicka
+      </span>
+       
+      4:50 AM
+    </p>
+    <p>
+      Hello world
+    </p>
+  </li>
+  <li>
+    <span
+      className="chat-name"
+    >
+      Caty Flucker
+    </span>
+     
+    gave a thumbs up
+  </li>
+  <li>
+    <span
+      className="chat-name"
+    >
+      Frank Runciman
+    </span>
+     
+    gave a thumbs down
+  </li>
+  <li>
+    <span
+      className="chat-name"
+    >
+      Koren Templeton
+    </span>
+     
+    unknown
+  </li>
+  <li>
+    <span
+      className="chat-name"
+    >
+      Koren Templeton
+    </span>
+     
+    clapped
+  </li>
+  <li>
+    <span
+      className="chat-name"
+    >
+      Koren Templeton
+    </span>
+     
+    joined
+  </li>
+  <li>
+    <span
+      className="chat-name"
+    >
+      Ashla Attwool
+    </span>
+     
+    left
+  </li>
+  <li>
+    <span
+      className="chat-name"
+    >
+      Axe Kubicka
+    </span>
+     
+    joined stage
+  </li>
+  <li>
+    <span
+      className="chat-name"
+    >
+      Axe Kubicka
+    </span>
+     
+    left stage
+  </li>
+</ul>
+`;
