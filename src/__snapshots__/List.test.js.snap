@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List test renders same UI 1`] = `
+<ul>
+  <li>
+    <img
+      alt="Koren Templeton avatar"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+    <div>
+      <h2>
+        Koren Templeton
+      </h2>
+      <div
+        className="active"
+      >
+        <p>
+          on stage
+        </p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <img
+      alt="Caty Flucker avatar"
+      src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+    />
+    <div>
+      <h2>
+        Caty Flucker
+      </h2>
+      <div
+        className="active"
+      >
+        <p>
+          in session
+        </p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <img
+      alt="Frank Runciman avatar"
+      src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+    />
+    <div>
+      <h2>
+        Frank Runciman
+      </h2>
+      <div
+        className="active"
+      >
+        <p>
+          in session
+        </p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <img
+      alt="Ashla Attwool avatar"
+      src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+    />
+    <div>
+      <h2>
+        Ashla Attwool
+      </h2>
+      <div
+        className="active"
+      >
+        <p>
+          on stage
+        </p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <img
+      alt="Axe Kubicka avatar"
+      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+    />
+    <div>
+      <h2>
+        Axe Kubicka
+      </h2>
+      <div
+        className="inactive"
+      >
+        <p>
+          left session
+        </p>
+      </div>
+    </div>
+  </li>
+</ul>
+`;
