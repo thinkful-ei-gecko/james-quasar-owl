@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stage tests renders same UI 1`] = `
+<section
+  className="on-stage"
+>
+  <header>
+    <h1>
+      The Stage
+    </h1>
+  </header>
+  <ul>
+    <li>
+      Koren Templeton
+    </li>
+    <li>
+      <img
+        alt="Koren Templeton avatar"
+        src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+      />
+    </li>
+  </ul>
+  <ul>
+    <li>
+      Ashla Attwool
+    </li>
+    <li>
+      <img
+        alt="Ashla Attwool avatar"
+        src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+      />
+    </li>
+  </ul>
+</section>
+`;
