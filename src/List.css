@@ -1,0 +1,49 @@
+.participant-list {
+
+}
+.participant-list li {
+  display: flex; 
+  border: 1px solid red;
+}
+
+.participant-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.participant-details p {
+}
+
+.participant-details h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.active p{
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+}
+
+.inactive p{
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+}
+
+.active p::before {
+  color: rgb(59, 216, 59);
+  content: '•';
+  font-size: 1.5rem;
+  margin-right: .3rem;
+  display: inline-block;
+
+}
+
+.inactive p::before{
+  color: grey;
+  content: '•';
+  font-size: 1.5rem;
+  margin-right: .3rem;
+}

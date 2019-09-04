@@ -1,5 +1,5 @@
 const store = {
-    feed: 'chat',
+    feed: '',
   participants: [
     {
         id: 1,

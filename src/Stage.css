@@ -18,6 +18,10 @@ background-color: #353535;
 margin: 0 auto;
 }
 
+.stage-person__name {
+  margin-bottom: 3rem;
+}
+
 .stage-person__avatar {
   border: 2px solid blue;
   width: 150px;

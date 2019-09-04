@@ -12,7 +12,7 @@ export default function Stage(props) {
       {
         peopleOnStage.map( person => (
           <ul key={person.id} className="stage-person">
-            <li>{person.name}</li>
+            <li className="stage-person__name">{person.name}</li>
             <li className="stage-person__avatar"><img src={person.avatar} alt={person.name + ' avatar'}/></li>
           </ul>
         ))
